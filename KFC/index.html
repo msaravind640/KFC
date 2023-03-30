@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC | Order KFC Chicken Online</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid" style="padding: 0;">
+        <div id="myNav" class="overlay">
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9776;</a> -->
+            <div class="overlay-content">
+                <div class="menu-head">
+                    <p class="h1">LET'S GET<br>COOKIN'</p>
+                    <img src="icon/Account_Icon.svg" alt="">
+                    <p class="d-inline">Sign in/Sign Up</p>
+                </div>
+                <div class="nav-content d-flex justify-content-between align-items-center">
+                    <div>MENU</div>
+                    <div>
+                        <img class="img-fluid" src="images/menu__1.png" alt="">
+                    </div>
+                </div>
+                <div class="nav-content d-flex justify-content-between align-items-center">
+                    <div>DEALS</div>
+                    <div>
+                        <img class="img-fluid" src="images/menu-2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="nav-content">
+                    <a href="#">Get Help</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">KFC Feedback</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg sticky-top" style="background-color: white;">
+            <span class="hamburger-menu d-lg-none d-xl-none " style="font-size:30px;cursor:pointer"
+                onclick="myFunction()">&#9776;</span>
+
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" alt="" width="90" height="24">
+            </a>
+            <div class="navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"><span>Menu</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span>Deals</span></a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                <span><img src="icon/Account_Icon.svg" alt="">
+                                    Sign in
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="nav-link" aria-current="page" href="#">
+                                ₹0
+                                <img src="icon/bucket_cart_icon.svg" alt="" width="30px">
+                            </a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="d-flex  justify-content-center nav-base">
+                <div class="d-flex flex-lg-row flex-column align-items-center nav-base-content">
+                    <div class="p-2 bd-highlight">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</div>
+                    <button type="button" class="btn btn-danger">Start Order</button>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-lg-start justify-content-center col-md-12 welcome"
+                style="background-color: #f8f7f5; ">
+                <div class="body-head">
+                    <div class="three-dot"></div>
+                    <p class="my-4">WELCOME TO KFC!</p>
+                </div>
+            </div>
+
+            <div class="row first-row">
+                <div class="d-flex">
+                    <p class="h2" style="font-weight: 800; font-size: 2.5vw; color: 
+                #202124;">BROWSE CATEGORIES</p>
+                    <div class="horizontal-line"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images\CAT208.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">EXCLUSIVE DEALS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images\CAT212.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">CHIZZA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images\CAT86.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">CHICKEN BUCKETS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images\CAT200.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">NEW LAUNCH</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images\biriyani_bucket.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">BIRIYANI BUCKETS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images\box_meals.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">BOX MEALS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images\burgers.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">BURGERS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-3 col-md-6 col-6 d-block d-md-block d-lg-none">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images/beverages.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">BEVERAGES</p>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="col-lg-3 col-md-6 col-6">
+                    <div class="card h-100">
+                        <img class="img-fluid" src="images/view all.svg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text text-center">View All Menu</p>
+                            <a href="#">
+                                <img src="icon/arrow.svg" class="mx-auto d-block" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row second-row">
+                <!-- <div class="d-flex justify-content-lg-between justify-content-md-center">
+                <div class="three-dot"></div>
+            </div> -->
+
+                <div class="d-flex justify-content-lg-between justify-content-center ">
+                    <div class="h2">
+                        OFFERS & DEALS
+                    </div>
+                    <div class="p-2 d-none d-lg-block">
+                        View All Deals
+                        <a href="#">
+                            <img src="icon/arrow-white.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-6">
+                        <div class="card h-100">
+                            <img src="images/free_1pc_chicken.jpg" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">1 PC FREE</h3>
+                                <p class="sub-title">1 Pc free chicken Zinger on a cart value of 399 or above on first
+                                    order.Only for...</p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="card-link">View Details</a>
+                                    <a href="#" class="btn btn-outline-dark">Redeem</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-6">
+                        <div class="card h-100">
+                            <img src="images\ADDCHK99.jpg" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">ADD 2 PC HOT N...</h3>
+                                <p class="sub-title">Add 2 Pc Hot n Crispy Chicken @ Rs 99 on min cart value of Rs 499 or more...</p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="card-link">View Details</a>
+                                    <a href="#" class="btn btn-outline-dark">Redeem</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-lg-4 col-md-4 col-6  d-none d-lg-block d-md-block">
+                        <div class="card  h-100">
+                            <img src="images\BIGSAVE.jpg" class="img-fluid" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">UPTO RS 100 OFF O...</h3>
+                                <p class="sub-title">Upto Rs 100 off on min cart value of Rs 699 or more. Applicable on 4th order onwards...</p>
+                                <div class="d-flex justify-content-between">
+                                    <a href="#" class="card-link">View Details</a>
+                                    <a href="#" class="btn btn-outline-dark">Redeem</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <footer class="text-center text-lg-start bg-light text-muted" id="footer">
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-lg-4 col-xl-1 mb-4">
+                                <img src="images/2nd_logo.svg" alt="">
+                            </div>
+                            <div class="col-md-3 col-lg-4 col-xl-2 mb-4">
+                                <p>
+                                    <a href="#!" class="text-reset">KFC Food</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Menu</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Order Lookup</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Gift card</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Nutrition & Allergen</a>
+                                </p>
+                            </div>
+                            <div class="col-md-2 col-lg-2 col-xl-2 mb-4">
+                                <p>
+                                    <a href="#!" class="text-reset">Support</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Get Help</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Contact Us</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">KFC Feedback</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Privacy Policy</a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-3 col-lg-2 col-xl-1 mb-4">
+                                <p>
+                                    <a href="#!" class="text-reset">KFC India</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">About KFC</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">KFC Care</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Careers</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Our Golden Past</a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-3 col-lg-4 col-xl-2 mb-4">
+                                <p>
+                                    <a href="#!" class="text-reset">
+                                        <img src="icon/location.svg" alt="" style="padding-right: 5px;"> Find a KFC</a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-3 col-lg-4 col-xl-2 mb-4">
+                                <p>
+                                    <img src="images/google_play.svg" alt="" style="padding-right: 5px;">
+                                </p>
+                            </div>
+
+                            <div class="col-md-3 col-lg-4 col-xl-2 mb-4">
+                                <p>
+                                    <img src="images/apple.svg" alt="" style="padding-right: 5px;">
+                                </p>
+                            </div>
+                        </div>
+                </section>
+
+                <div class="text-center p-4" style="font-size: 12px;">
+                    Copyright © KFC Corporation 2021 All Rights Reserved
+                    <!-- <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Copyright © KFC Corporation 2021 All Rights Reserved</a> -->
+                    <div class="social-media float-end">
+                        <img src="icon/instagram.png" alt="">
+                        <img src="icon/facebook.png" alt="">
+                        <img src="icon/twitter.png" alt="">
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/fe933e4582.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

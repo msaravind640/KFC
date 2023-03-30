@@ -1,0 +1,292 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-head {
+    margin-left: 20px;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding-left: 8px;
+    padding-top: 40px;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+    display: block;
+}
+
+.overlay a:nth-child(1) {
+    padding-top: 10px;
+}
+
+.overlay a:hover {
+    color: black;
+}
+
+/* .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+} */
+
+.nav-content {
+    margin: 30px 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f8f7f5;
+}
+
+@media screen and (max-height: 450px) {
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.navbar {
+    padding: 10px 105px;
+}
+
+#navbarText .nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-base {
+    height: 78px;
+    background-color: #202124;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-base .btn {
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+/* .nav-link{
+    border-left: 1px solid grey;
+} */
+
+.three-dot {
+    background: repeating-linear-gradient(90deg, #e4002b, #e4002b 8px, #fff 0, #fff 16px);
+    width: 40px;
+    height: 20px;
+}
+
+.body-head p {
+    color: #202124;
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.container-fluid .first-row {
+    margin: 8% 11% 7% 10%;
+}
+
+.horizontal-line {
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-top: 2px solid #e3e3e3;
+}
+
+.row .card {
+    background-color: #f8f7f5;
+    border: none;
+}
+
+.row>.col-lg-3 {
+    margin-top: 5%;
+}
+
+.card .card-text {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.container-fluid .second-row {
+    background-color: #202124;
+    padding-bottom: 150px;
+}
+
+.second-row .h2 {
+    color: white;
+    padding-left: 195px;
+    padding-top: 83px;
+    font-weight: 800;
+}
+
+.second-row .p-2 {
+    color: white;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.second-row .row {
+    padding-left: 165px;
+    padding-right: 117px;
+}
+
+.second-row .row .btn {
+    margin-right: 18px;
+    width: 116px;
+    border-radius: 25px;
+}
+
+.second-row .row .card-link {
+    color: #494949;
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.second-row .row .card-title {
+    font-size: 31px;
+    font-weight: 700;
+    color: #e4002b;
+    overflow: hidden;
+}
+
+.second-row .row .sub-title {
+    margin: 0 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#footer {
+    background-color: #202124 !important;
+    margin-top: -48px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white !important;
+}
+
+.social-media img {
+    width: 19px;
+    margin-right: 11px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+
+@media (min-width:990px) {
+    .welcome {
+        padding-left: 14%;
+    }
+}
+
+@media (max-width:990px) {
+
+    .navbar-brand,
+    .nav-link-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .nav-link span {
+        display: none;
+    }
+
+    .navbar {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px 10px;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        top: -9px;
+        right: 10px;
+    }
+
+    .nav-base {
+        height: 90px;
+        font-size: 12px;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .three-dot {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .body-head p {
+        font-size: 22px;
+    }
+
+    .card .card-text {
+        font-size: 24px;
+    }
+
+    .second-row .h2 {
+        padding-left: 36px;
+        padding-bottom: 20px;
+    }
+
+    .second-row .row {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .second-row .row {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:725px) {
+    .card .card-text {
+        font-size: 14px;
+    }
+
+    /* .nav-base .btn{
+        width: 50%;
+        margin: auto;
+        border-radius: 25px;
+    } */
+}
